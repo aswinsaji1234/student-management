@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Button click</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+  <div id="myText">Simple jQuery button</div>
+  
+  
+ 
+  <script>
+    $(document).ready(function() {
+      $("#myText").hover(function() {
+        $(this).fadeIn();
+		}
+		,function(){
+		$(this).fadeOut();
+		    });
+		});
+  </script>
+</body>
+</html>
